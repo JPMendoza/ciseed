@@ -29,9 +29,12 @@
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="javascript:void(0)">CISeed Project</a>
+						
 					</div>
+
 				</div>
 			</nav>
+			testing
 			
 			
 		</div>

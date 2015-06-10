@@ -21,6 +21,10 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function test() 
+	{
+		return "I'm a chuncky monkey";
+	}
 }
 
 /* End of file welcome.php */

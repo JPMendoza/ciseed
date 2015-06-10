@@ -39,7 +39,11 @@
 */
 
 $route['default_controller'] = "welcome";
+$route['test'] = "welcome/test";
 $route['404_override'] = '';
+
+$route['getstudent'] = "restcontroller/index_getAll";
+$route['addstudent'] = "restcontroller/index_addone";
 
 $route['ciunit'] = "ciunit_controller/index";
 $route['ciunit/(:any)'] = "ciunit_controller/index/$1";
